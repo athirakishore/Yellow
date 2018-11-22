@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.user.yellowridesafety.QrcodeDriver">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="199dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:text="QRCODE READING "
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/qrcodebutton"
+        android:layout_width="match_parent"
+        android:background="@drawable/nice"
+        android:layout_height="match_parent"
+        android:text="READ IDCARD"
+        android:visibility="visible" />
+</LinearLayout>

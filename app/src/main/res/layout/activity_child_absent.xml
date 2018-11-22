@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image1"
+    tools:context="com.example.user.yellowridesafety.ChildAbsent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REPORT ABSENTS"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/admntxt"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="Student Admno"
+            android:textSize="15dp"/>
+
+        <Spinner
+            android:id="@+id/sp"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nametxt"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="Reason "
+            android:textSize="15dp"/>
+
+        <EditText
+            android:id="@+id/reasonEditText"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/subButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/canButton"
+            android:text="CANCEL"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image1"
+    tools:context="com.example.user.yellowridesafety.ParentLogin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" LOGIN"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/unametxt"
+            android:layout_width="142dp"
+            android:layout_height="46dp"
+            android:text="USERNAME"
+            />
+
+        <EditText
+            android:id="@+id/unameEditText"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/paswdtxt"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/pswEditText"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/newButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="New User" />
+
+
+
+</LinearLayout>
+
+
